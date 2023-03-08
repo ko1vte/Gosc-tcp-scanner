@@ -6,11 +6,9 @@ import (
 	"net"
 	"os"
 	"sort"
-	"sync"
 )
 
 var addr string
-var wg sync.WaitGroup
 var portnum int
 var goroutine int
 
