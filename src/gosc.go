@@ -18,7 +18,7 @@ func main() {
 func cmd() {
 	//ports := make(chan int, 100)
 	flag.IntVar(&portnum, "p", 1024, "port number Default:1024")
-	flag.IntVar(&goroutine, "g", 100, "goroutine Default:100")
+	flag.IntVar(&goroutine, "g", 1000, "goroutine Default:1000")
 	flag.Parse()
 
 	for i := 1; i < len(os.Args); i++ {
